@@ -7,9 +7,13 @@ interface Configuration extends WebpackConfiguration {
 }
 
 const config: Configuration = {
-  entry: "./src/index.tsx",
+  entry: "./src/",
   module: {
     rules: [
+      {
+        test: /\.(css)$/,
+        use: ['style-loader', 'css-loader'],
+      },
       {
         test: /\.(ts|js)x?$/,
         exclude: /node_modules/,

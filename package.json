@@ -4,7 +4,7 @@
   "description": "Portfolio",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "webpack --config webpack.config.ts && gh-pages -d build",
+    "deploy": "webpack --mode production && gh-pages -d build",
     "start": "webpack serve --open",
     "build": "webpack --mode production"
   },
