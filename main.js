@@ -1,0 +1,1 @@
+document.querySelector(".welcome-note").innerHTML="Hello and Welcome";
