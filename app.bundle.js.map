@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://mysite/./src/index.ts"],"names":["document","querySelector","innerHTML"],"mappings":"AAAAA,SAASC,cAAc,iBAAiBC,UAAW","file":"app.bundle.js","sourcesContent":["document.querySelector(\".welcome-note\").innerHTML= \"Hello and Welcome\""],"sourceRoot":""}
