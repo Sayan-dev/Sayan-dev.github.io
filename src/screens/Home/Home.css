@@ -1,0 +1,171 @@
+.home-container {
+    padding: 5rem;
+    background: linear-gradient(rgb(46, 42, 42),rgb(71, 66, 66));
+    display: flex;
+    color: antiquewhite;
+    flex-direction: column;
+
+
+}
+.home-table-container {
+    margin: 2rem 2rem 0px 2rem;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1em;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 1em;
+  }
+
+  .home-cell {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .home-cell-inner {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    background-image: url(https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+
+  .home-cell-1 {
+    background: deepskyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .home-cell-1-inner {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    background-color: royalblue;
+    background-image: url(https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+  .home-cell-2 {
+    background: orangered;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .home-cell-2-inner {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    background-image: url(https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+  .home-cell-3 {
+    background: royalblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .home-cell-3-inner {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    background-image: url(https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+  .home-cell-4 {
+    background: gold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .home-cell-4-inner {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    background-image: url(https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+  .home-cell-5 {
+    background: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .home-cell-5-inner {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 100%;
+    background-image: url(https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+  .home-cell-6 {
+    background: limegreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .home-cell-6-inner {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    background-image: url(https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+  .home-cell-7 {
+    background: coral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .home-cell-7-inner {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    background-image: url(https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+  .home-cell-8 {
+    background: lightseagreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .home-cell-8-inner {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    background-image: url(https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+  .home-cell-9 {
+    background: maroon;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
